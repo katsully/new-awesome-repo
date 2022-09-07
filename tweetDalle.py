@@ -1,3 +1,5 @@
+# By Kat Sullivan
+
 import tweepy
 import os
 import json
