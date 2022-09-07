@@ -13,15 +13,6 @@ consumer_secret = keyFile.readline().rstrip()
 access_token = keyFile.readline().rstrip()
 access_token_secret = keyFile.readline().rstrip()
 
-# keyFile = open('bearer.txt', 'r')
-# bearer = keyFile.readline().rstrip()
-
-# Authorization and Authentication
-# auth = tweepy.Client(bearer_token=bearer)
-# auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
-# auth.set_access_token(access_token, access_token_secret)
-# api = tweepy.API(auth)
-
 client = tweepy.Client(
 	bearer_token=bearer_token,
 	consumer_key = consumer_key,
