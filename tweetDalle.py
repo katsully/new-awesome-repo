@@ -21,6 +21,7 @@ client = tweepy.Client(
 	access_token_secret = access_token_secret
 )
 
+# recent tweeks from Barack Obama
 query = 'from:BarackObama -is:retweet'
 response = client.search_recent_tweets(query=query,
 tweet_fields=['author_id', 'created_at'],
